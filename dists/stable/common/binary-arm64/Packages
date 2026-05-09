@@ -1,0 +1,34 @@
+Package: droidian-sysfs-torch
+Version: 0.0.5+git20230226220644.60e12d1.main
+Architecture: arm64
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Installed-Size: 85
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: packages/common/droidian-sysfs-torch_0.0.5+git20230226220644.60e12d1.main_arm64.deb
+Size: 9916
+MD5sum: 7217743adfc79564207a74064f1ada26
+SHA1: 99625fc1b60083b0dec60957a8422de5a37499a1
+SHA256: 0461d76cbd5f31b82db2ad2a8aa50e6ab19e4a4ae69155ba17a3f5b94cc831ab
+Section: mist
+Priority: optional
+Homepage: https://github.com/droidian-starqlte/droidian-sysfs-torch
+Description: This service looks for changes in flashlightd dbus and applies it
+
+Package: droidian-sysfs-torch-dbgsym
+Source: droidian-sysfs-torch
+Version: 0.0.5+git20230226220644.60e12d1.main
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Installed-Size: 273
+Depends: droidian-sysfs-torch (= 0.0.5+git20230226220644.60e12d1.main)
+Filename: packages/common/droidian-sysfs-torch-dbgsym_0.0.5+git20230226220644.60e12d1.main_arm64.deb
+Size: 261256
+MD5sum: 3f26383a83d3520b3e0931abef44952d
+SHA1: 97d2bf2a8d1f7cc22417371d4b4678dbd325e2e1
+SHA256: 55e4ffd6275139d86eb60edeaf845a006f9b363788b3324c3b2bd6692273116f
+Section: debug
+Priority: optional
+Description: debug symbols for droidian-sysfs-torch
+Build-Ids: 766eebc25222ce3f0535899294d5b4cabef4e309
+

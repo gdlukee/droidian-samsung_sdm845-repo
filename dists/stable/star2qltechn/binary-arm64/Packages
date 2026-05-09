@@ -1,0 +1,153 @@
+Package: adaptation-droidian-star2qltechn
+Version: 0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm+git20260505190951.14525e7.master
+Architecture: all
+Maintainer: Bardia Moshiri
+Installed-Size: 12
+Depends: adaptation-hybris-api29-phone, adaptation-star2qltechn-configs, wlr-randr
+Filename: packages/star2qltechn/adaptation-droidian-star2qltechn_0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm+git20260505190951.14525e7.master_all.deb
+Size: 2500
+MD5sum: ef0a35998ea6dc407c562574ff5ed5ac
+SHA1: cb44a42730206013e5fc18cee68dde68dadbd046
+SHA256: 6a1bf6c7bb2a463f4a81388430106b803c2552c94b65eac7ad669e6350e24ead
+Section: metapackages
+Priority: optional
+Description: adapatation-star2qltechn-meta
+ star2qltechn api29 adaptation metapackage
+
+Package: adaptation-star2qltechn-configs
+Source: adaptation-droidian-star2qltechn
+Version: 0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm+git20260505190951.14525e7.master
+Architecture: all
+Maintainer: Bardia Moshiri
+Installed-Size: 156
+Depends: dconf-gsettings-backend | gsettings-backend
+Filename: packages/star2qltechn/adaptation-star2qltechn-configs_0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm+git20260505190951.14525e7.master_all.deb
+Size: 25170
+MD5sum: abab805d6008c1ec62fcfde05435697e
+SHA1: bdc4bb6f122ffc0ff29e8b409f8930e2087dfafa
+SHA256: 102e84f0fd9decf1c49e5ccb70bcf25b5732c8dcbd77a7e14034ef2ea4dd8356
+Section: metapackages
+Priority: optional
+Description: star2qltechn's adaptation configs
+
+Package: linux-bootimage-4.9.337-samsung-star2qltechn
+Source: linux-android-samsung-star2qltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 93547
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.9.337-samsung-star2qltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/star2qltechn/linux-bootimage-4.9.337-samsung-star2qltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 73474052
+MD5sum: eb450da59675564d140fcf33f998b39b
+SHA1: 32505985ae2862146d94409b8ae6104ef399f6b7
+SHA256: 08cca68efc77fa9f367e3c09e83de3612e5b7cbacc733c775b1390815c2aec6a
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy S9+ - Android Boot Image
+ This package contains the Linux kernel for the Samsung Galaxy S9+ device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-bootimage-samsung-star2qltechn
+Source: linux-android-samsung-star2qltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-bootimage-4.9.337-samsung-star2qltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/star2qltechn/linux-bootimage-samsung-star2qltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 1444
+MD5sum: 183f5e1e0d12171c7f12936de481b488
+SHA1: e2583e358df072e1fd1e66c044ad92078c9199c8
+SHA256: f99539032c9ae32efd9b7009bcb902234891149e4b49240656c14ab9e63e9edc
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy S9+ - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Samsung Galaxy S9+.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-headers-4.9.337-samsung-star2qltechn
+Source: linux-android-samsung-star2qltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 70600
+Depends: linux-image-4.9.337-samsung-star2qltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/star2qltechn/linux-headers-4.9.337-samsung-star2qltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 9895760
+MD5sum: eb548f27034b5dad43ef7c69afdba400
+SHA1: 97d4e0a1340755f470700c9721bc9b824d78dcda
+SHA256: 35a7f302073a8e396b2bbe90611f8240258ebc4886ab047e921f047b363a9b7b
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy S9+ - Headers
+ This package contains the Linux kernel headers for the Samsung Galaxy S9+ device.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-headers-samsung-star2qltechn
+Source: linux-android-samsung-star2qltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-headers-4.9.337-samsung-star2qltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/star2qltechn/linux-headers-samsung-star2qltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 1424
+MD5sum: 960882d7c1d2d57e6c4aa75f41b0c069
+SHA1: 51e9e30c7a1c223f3a344d7f4932ad015a31f864
+SHA256: 354930112f6d15959a728407ea17ca309fde352b694ed4398050034c157c3fe9
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy S9+ - Headers (latest)
+ This package depends to the latest kernel headers available for the Samsung Galaxy S9+.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-image-4.9.337-samsung-star2qltechn
+Source: linux-android-samsung-star2qltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 36785
+Filename: packages/star2qltechn/linux-image-4.9.337-samsung-star2qltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 20864016
+MD5sum: dee4f7173e72ba637ed31d0254e20299
+SHA1: 3d98e740df614905b30c4d0bd56b6821bb1e88a0
+SHA256: f8142f35c196622eb2a00e63bbfceb552f66e4e48509687141876b787723e8a7
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy S9+
+ This package contains the Linux kernel for the Samsung Galaxy S9+ device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.9.337-samsung-star2qltechn package for a bootimage suitable
+ for Android boot loaders.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-image-samsung-star2qltechn
+Source: linux-android-samsung-star2qltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-image-4.9.337-samsung-star2qltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/star2qltechn/linux-image-samsung-star2qltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 1416
+MD5sum: d29e01e000720527879d35cdc235ecce
+SHA1: 534c07c5c3f21f7ddf39b56138dac2a0938d13e1
+SHA256: 9ada46c93d5aeb1659ce1d1a5c1c0d0afbc20bd3ebdc49cd6743f49cd5a898aa
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy S9+ (latest)
+ This package depends to the latest kernel image available for the Samsung Galaxy S9+.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+

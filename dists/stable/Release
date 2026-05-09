@@ -1,0 +1,49 @@
+Origin: https://gdlukee.github.io/droidian-samsung_sdm845-repo
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: common crownqltechn star2qltechn starqltechn
+Description: Modular APT repository for SDM845 devices
+Date: Sat, 09 May 2026 22:32:32 +0000
+MD5Sum:
+ 75d4feb6ae63dcd5a0d7a1a86bdd8ab6              298 Release
+ 8f7286171b99ee492742ed7e13d33b29             1452 common/binary-arm64/Packages
+ 00db05adc5b19b7cd3641faea78fc784              702 common/binary-arm64/Packages.gz
+ 858408521e0732949536954633817680             8928 crownqltechn/binary-arm64/Packages
+ a0ee3db0e0e15c2d07fb586b28678da7             1802 crownqltechn/binary-arm64/Packages.gz
+ d958897e0d5aa0b7694c8ec98bbf1222             8892 star2qltechn/binary-arm64/Packages
+ 0127ff26a57a38d1a2a772dd923f7243             1794 star2qltechn/binary-arm64/Packages.gz
+ 3f161f14d06bc7f1133d9829d021f8a5             8839 starqltechn/binary-arm64/Packages
+ 8ee004696385b0f191d2cf0ca35ee23e             1800 starqltechn/binary-arm64/Packages.gz
+SHA1:
+ 3ab4a3ced019708a497566c00573c87b9207e02a              298 Release
+ d61a62b91bcf6843f7eac721d1f755c361a55d62             1452 common/binary-arm64/Packages
+ 5217aef57bf198c9c23dbe8d1bc301a01f0d9b23              702 common/binary-arm64/Packages.gz
+ 4c065d732ed7c8863faa88f1186d156ebb807c4f             8928 crownqltechn/binary-arm64/Packages
+ 34f4d965dd38f47a67a3cc85953b70ee7c00159a             1802 crownqltechn/binary-arm64/Packages.gz
+ 32a60d74e76d0f2be6b08debd99d980de448f30f             8892 star2qltechn/binary-arm64/Packages
+ 8af80f8147e9f50a56a892b91ac21fdbc5ff0d69             1794 star2qltechn/binary-arm64/Packages.gz
+ d60307a23c637943b52df9bb9b7d868c6bcf70cc             8839 starqltechn/binary-arm64/Packages
+ eeeef4483aeb3af55b4510bb022a152383272682             1800 starqltechn/binary-arm64/Packages.gz
+SHA256:
+ 63bcb9a72d07c07a9a561c11255fd56f620fe4e67f8e50de7ab95ecb287cc50a              298 Release
+ 60e06e7b81308c264875ab86a16a61e5a9e8673f636eb9aff9553e6617587cb7             1452 common/binary-arm64/Packages
+ ca7dd7fe4e190ee84d8a8692b87300dbc8c0e94c7b8207555c2f9dd89c637935              702 common/binary-arm64/Packages.gz
+ 7b325ebc9c0ac93caef7e37ef8f3ec6762dbad1e6b313bf69c92b841c48f1004             8928 crownqltechn/binary-arm64/Packages
+ af4293da9531981af5c1570ec6e9afd403c6c4d9a78360438e3c12c0601b33d4             1802 crownqltechn/binary-arm64/Packages.gz
+ 6118f024599b42a2164ce722b9d60fcf98b2dd54bc7e8c276cfc29e8cf281bed             8892 star2qltechn/binary-arm64/Packages
+ 4132cea2d8314fb2c9bf3a7103a8f031f97fa30a5e36b01727f5aecd3ff3a040             1794 star2qltechn/binary-arm64/Packages.gz
+ 654bb98c93ab8714e9897b91e8e3bbd849eae933be90340ec5ab1ba2313d5c63             8839 starqltechn/binary-arm64/Packages
+ 1d2fe5e0a590582c5da474592659be9cf50bfa0bffd6b9b323035d4e31ee402b             1800 starqltechn/binary-arm64/Packages.gz
+SHA512:
+ 3867c7722d3f42732a8f5368de8805cf49a1d38254ef166e1693cff587b41069368d0fe1e0259f65f0463a384185e8f75923b0deb0bf769e5e0197d8834bacdf              298 Release
+ 3c11be979873f006d2adf7face424fcfe7b01a15483542e5b429d3d2f237ef1869074b9f2b60f444d732487c6246ed1c1488714db87eadfb4c7fe5ea68053d36             1452 common/binary-arm64/Packages
+ 21a5a822ad15a4616cb758ed9f164d5cd87f02cbd6af585484266ae2c9bc8216e5d4a690cad603f704064d120984d7b1f255e12b11fa926cf650e8c544eabcef              702 common/binary-arm64/Packages.gz
+ ad08ec9c8f6fd1379cc00eb3e6a33422aba8a176168993937c4da10749ba6b9a1a193607f6e625333ecd147a611e82e7b5098352b85a729af2fd1f4b513a2064             8928 crownqltechn/binary-arm64/Packages
+ cd0f1b97eba1dc9a5698cdb3b5c8648e03685dbb4f9ce9369abdc90b2b9675b712a8529efeb23a4c84f44cd0253496a61586e5f1bc8feb47aace2cbe5790283c             1802 crownqltechn/binary-arm64/Packages.gz
+ 898c2303dbb2b57309399e024d3f9bf9ce7e088a4d21297ebe13fedb454dcda922dcb203c41b515593ef775438c1058e6c869793a47759df780d41feebab5980             8892 star2qltechn/binary-arm64/Packages
+ f717aaeb82e0ee5c9fff9d8af982cc3ebc51aa9a37a1b8c865a9fb8e94f906d33d56030e94a1b6a5b1f2edc97c5f2f8f09486c9525b8b6b98f388f66031ab595             1794 star2qltechn/binary-arm64/Packages.gz
+ 5b89e7ee639849036a35116f8139f0224e08544bf1598962dabf77951f62870142f62b689aecf0981c8cd819df98e6b46614e6e83bd4d2b0632a4dd680beb64f             8839 starqltechn/binary-arm64/Packages
+ c42b9d376d5d1e33dfc569ff00ea0b4e7f7adf34efbc8b9332ac44208ed70e84002b7490e6d425fc90ad69fab44dfe254002c229aa5a3efba7103d4a55dbd399             1800 starqltechn/binary-arm64/Packages.gz

@@ -1,0 +1,153 @@
+Package: adaptation-crownqltechn-configs
+Source: adaptation-droidian-crownqltechn
+Version: 0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm+git20260505190945.8843f1c.master
+Architecture: all
+Maintainer: Bardia Moshiri
+Installed-Size: 156
+Depends: dconf-gsettings-backend | gsettings-backend
+Filename: packages/crownqltechn/adaptation-crownqltechn-configs_0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm+git20260505190945.8843f1c.master_all.deb
+Size: 25160
+MD5sum: 09267637430ffd30e76f53ad6f5fbbb9
+SHA1: 5959232e3a3e0f1551710f32ceb9e31f33b888b5
+SHA256: 2436d41988a2e9c252f2ee9ed49c59fd47d3f8d8a90433cae3bb88f147898035
+Section: metapackages
+Priority: optional
+Description: crownqltechn's adaptation configs
+
+Package: adaptation-droidian-crownqltechn
+Version: 0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm+git20260505190945.8843f1c.master
+Architecture: all
+Maintainer: Bardia Moshiri
+Installed-Size: 12
+Depends: adaptation-hybris-api29-phone, adaptation-crownqltechn-configs, wlr-randr
+Filename: packages/crownqltechn/adaptation-droidian-crownqltechn_0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm+git20260505190945.8843f1c.master_all.deb
+Size: 2508
+MD5sum: b26eabf5241619aa3967745b649127ed
+SHA1: 3f8f5514442af127de64d11c09d621ba3141e695
+SHA256: 268b44678e71529c322ae2836b2ce1dcff02a27ff53ebc725dda92e469b25641
+Section: metapackages
+Priority: optional
+Description: adapatation-crownqltechn-meta
+ crownqltechn api29 adaptation metapackage
+
+Package: linux-bootimage-4.9.337-samsung-crownqltechn
+Source: linux-android-samsung-crownqltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 77083
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.9.337-samsung-crownqltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/crownqltechn/linux-bootimage-4.9.337-samsung-crownqltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 73794368
+MD5sum: accc47ebc25ec24febbbea7fb2c1253f
+SHA1: e7657a73c60f089f62eeef6e02157b75c96bd9e1
+SHA256: 28735caffd9d03f4756b5f3bab05b998f4258e4e86b0facd05b26af4e8c46089
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy Note 9 - Android Boot Image
+ This package contains the Linux kernel for the Samsung Galaxy Note 9 device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-bootimage-samsung-crownqltechn
+Source: linux-android-samsung-crownqltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-bootimage-4.9.337-samsung-crownqltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/crownqltechn/linux-bootimage-samsung-crownqltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 1448
+MD5sum: e65e981b17cc2e2a79b7309695e26361
+SHA1: 8c63afd19ecdedda6e57b550e27115e2640f2c6e
+SHA256: 29c6929c561470322e3dc3c6deb9dde6d13a485a53e674f0b124290f61601df7
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy Note 9 - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Samsung Galaxy Note 9.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-headers-4.9.337-samsung-crownqltechn
+Source: linux-android-samsung-crownqltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 56667
+Depends: linux-image-4.9.337-samsung-crownqltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/crownqltechn/linux-headers-4.9.337-samsung-crownqltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 8524848
+MD5sum: 07fdc772ece09ba8d873de02487101aa
+SHA1: 939bc05d317882c05712335345707acd076cdb85
+SHA256: acecaf089d380719eb6ba39a8166048460a726b3f469c093d19035483867649c
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy Note 9 - Headers
+ This package contains the Linux kernel headers for the Samsung Galaxy Note 9 device.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-headers-samsung-crownqltechn
+Source: linux-android-samsung-crownqltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-headers-4.9.337-samsung-crownqltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/crownqltechn/linux-headers-samsung-crownqltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 1432
+MD5sum: 7f57383a85774cf8bb1207ef1ff3b420
+SHA1: b6f05364b07d5e1a099757003f5797a25d4321b1
+SHA256: def2eeaf90136d349dc1990544a34e1d1c137f9fb37f19c1d02e28f5892dbef1
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy Note 9 - Headers (latest)
+ This package depends to the latest kernel headers available for the Samsung Galaxy Note 9.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-image-4.9.337-samsung-crownqltechn
+Source: linux-android-samsung-crownqltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 28559
+Filename: packages/crownqltechn/linux-image-4.9.337-samsung-crownqltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 21037232
+MD5sum: 6778052197b41f322dc8737fdbe82e0d
+SHA1: 34b4eccb16175e423fbb5a5bd6fb0e3adec2cc3d
+SHA256: 28b5cf3b51b65e19e4f05c4f3abbccacc9cd6e65d386a30ea2588f704706654b
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy Note 9
+ This package contains the Linux kernel for the Samsung Galaxy Note 9 device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.9.337-samsung-crownqltechn package for a bootimage suitable
+ for Android boot loaders.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
+Package: linux-image-samsung-crownqltechn
+Source: linux-android-samsung-crownqltechn
+Version: 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-image-4.9.337-samsung-crownqltechn (= 0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian)
+Filename: packages/crownqltechn/linux-image-samsung-crownqltechn_0.0.0+git20230227095837.b1d3298.droidian+git20260502235313.d09f2f1.droidian.4.9.337.test+git20260503053411.b5b2fdc.droidian_arm64.deb
+Size: 1424
+MD5sum: 1a7e58ec87d062d05d7cb29d61230086
+SHA1: 2c00e59193f34c63d140df6d046a33d50c5d4fb3
+SHA256: 3331e79353612fb1bd6b535f794a5e860d3bef60717d2f968440803d00387e31
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Galaxy Note 9 (latest)
+ This package depends to the latest kernel image available for the Samsung Galaxy Note 9.
+X-Droidian-Vcs-Revision: b5b2fdc490516c92fa00d0ed5b99ba8882ffbe67
+X-Droidian-Vcs-Url: https://github.com/Fabito02/android_kernel_samsung_sdm845
+
